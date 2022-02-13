@@ -1,0 +1,73 @@
+body {
+  background-color: red;
+}
+
+a {
+  color: black;
+}
+
+.navLink:hover,
+a:hover {
+  background-color: blue;
+}
+
+.login-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  background-color: blue;
+  border: red;
+  box-shadow: 2px 2px 2px 2px white;
+  width: 50vw;
+}
+
+h3 {
+  color: black;
+  text-transform: uppercase;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonSubmit {
+  background-color: red;
+  color: black;
+  border: none;
+  padding: 1%;
+}
+
+.loginDetails {
+  height: 20px;
+  width: 100%;
+  margin-top: 2%;
+  border: white;
+  box-shadow: inset 1px 1px 1px white;
+  border-radius: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 2%;
+  color: white;
+  font-size: 2em;
+}
